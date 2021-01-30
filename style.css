@@ -1,0 +1,55 @@
+
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: var(--bs-gutter-x,.75rem);
+    padding-bottom: var(--bs-gutter-x,.75rem);
+}
+
+
+.menu-control {
+    min-height: calc(100vh -  var(--bs-gutter-x,.75rem));
+}
+.menu-control:hover {
+    width: 310px;
+    position: absolute;
+    left: 11px;
+    top: 0px;
+    z-index: 4;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.menu-label {
+    display: none;
+}
+.menu-control:hover .menu-label {
+    display: inline-block;
+    margin-left: .5rem;
+}
+.menu-control:hover button {
+    text-align: left;
+}
+.menu-search i{
+    position: absolute;
+    left: 9px;
+    top: 19px;
+    font-size: 20px;
+}
+.menu-search .form-control{
+    padding-left: 35px;
+}
+.table-rounded thead tr th:first-child {
+    border-top-left-radius: .25rem;
+}
+.table-rounded thead tr th:last-child {
+    border-top-right-radius: .25rem;
+}
+
+
+
+
+.form-filter {
+    border: none;
+    padding: 0px;
+    background-color: transparent;
+}
